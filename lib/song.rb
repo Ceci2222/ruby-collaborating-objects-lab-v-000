@@ -20,7 +20,7 @@ class Song
     #binding.pry
     song = self.new(filename[1]) 
     @artist = filename[0]
-    self.artist_name(@artist)
+    artist_name(@artist)
   end
   
 end
